@@ -39,7 +39,7 @@ func main() {
 	}
 
 	// Compile encrypt.go
-	encryptCmd := exec.Command("go", "build", "-o", "encrypt", "./encryptF/encrypt.go")
+	encryptCmd := exec.Command("go", "build", "-o", "encrypt.exe", "./encryptF/encrypt.go")
 	encryptCmd.Stdout = os.Stdout
 	encryptCmd.Stderr = os.Stderr
 	encryptCmd.Env = append(os.Environ(), "GOOS=windows", "GOARCH=amd64", fmt.Sprintf("GO_ARGS=%s", key))
@@ -50,7 +50,7 @@ func main() {
 	}
 
 	// Compile decrypt.go
-	decryptCmd := exec.Command("go", "build", "-o", "decrypt", "./decryptF/decrypt.go")
+	decryptCmd := exec.Command("go", "build", "-o", "decrypt.exe", "./decryptF/decrypt.go")
 	decryptCmd.Stdout = os.Stdout
 	decryptCmd.Stderr = os.Stderr
 	decryptCmd.Env = append(os.Environ(), "GOOS=windows", "GOARCH=amd64", fmt.Sprintf("GO_ARGS=%s", string(key)))
