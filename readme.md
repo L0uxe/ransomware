@@ -2,53 +2,53 @@
 
 ## Description
 
-Projet de ransomware en utilisant l'algorithme AES (Advanced Encryption Standard) avec GO
+Ransomware project using the AES (Advanced Encryption Standard) algorithm with GO
 
 ## Installation
 
 Pour utiliser ce projet, suivez ces étapes :
 
-1. Clonez ce dépôt sur votre machine locale :
+1. Clone this repository on your local machine:
 
 ```bash
 git clone https://github.com/L0uxe/ransomware.git
 ```
 
-2. Assurez-vous d'avoir Go installé sur votre machine. Si ce n'est pas le cas, suivez les instructions d'installation pour Go depuis [golang.org](https://golang.org/doc/install).
-3. Accédez au répertoire du projet et exécutez la commande suivante :
+2. Make sure you have Go installed on your machine. If not, follow the installation instructions for Go from [golang.org](https://golang.org/doc/install).
+3. Go to the project directory and run the following command:
 
 ```bash
 go run main.go
 ```
 
-## Utilisation
+## Usage
 
-Pour chiffrer un fichier, exécutez le fichier encrypter.exe généré dans le répertoire du projet. 
+To encrypt a file, run the encrypter.exe file generated in the project directory. 
 
-Pour déchiffrer un fichier, exécutez le fichier decrypter.exe généré dans le répertoire du projet.
+To decrypt a file, run the decrypter.exe file generated in the project directory.
 
 
-Assurez-vous de sauvegarder votre clé de chiffrement en toute sécurité, car elle est essentielle pour déchiffrer les fichiers.
+MakMake sure you save your encryption key safely, as it is essential for decrypting files.
 
-## Fonctionnalités
+## Features
 
-- Chiffrement de fichiers avec AES .
-- Déchiffrement des fichiers chiffrés à l'aide de la clé de chiffrement appropriée.
+- File encryption with AES .
+- Decrypt encrypted files using the appropriate encryption key.
 
 ## Contributions
 
-Les contributions à ce projet sont les bienvenues ! Si vous souhaitez contribuer, veuillez suivre les étapes suivantes :
+Contributions to this project are welcome! If you would like to contribute, please follow these steps:
 
-1. Forkez le dépôt.
-2. Créez une branche pour votre fonctionnalité (`git checkout -b fonctionnalité/ma_fonctionnalité`).
-3. Faites vos modifications et committez-les (`git commit -m 'Ajout d'une nouvelle fonctionnalité'`).
-4. Poussez vos modifications vers votre fork (`git push origin fonctionnalité/ma_fonctionnalité`).
-5. Créez une Pull Request dans le dépôt d'origine.
+1. Forke the repository.
+2. Create a branch for your feature (`git checkout -b feature/my_feature`).
+3. Make your changes and commit them (`git commit -m 'Add new feature'`).
+4. Push your changes to your fork (`git push origin feature/my_feature`).
+5. Create a Pull Request in the origin repository.
 
 ## Support
 
-Si vous avez des questions, des suggestions ou des problèmes, veuillez créer une issue dans ce dépôt pour obtenir de l'aide.
+If you have any questions, suggestions or problems, please create an issue in this repository to get help.
 
-## Licence
+## License
 
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+This project is licensed under the MIT license - see the [LICENSE](LICENSE) file for details.
