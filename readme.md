@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Ransomware WORKING IN PROGRESS 
+=======
+# GO Somware
+>>>>>>> c8ef883 (a)
 
 ## Description
 
